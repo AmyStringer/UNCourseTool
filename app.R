@@ -41,7 +41,8 @@ ui <- navbarPage(title = "United Nations Course Tool",
                             column(width = 4, 
                                    # got to add some logos, these should be contained in the www folder 
                                    img(src = "qut.png", height = 100, width = 262, style = "float:left"), 
-                                   img(src = "ACEMS.png", height = 150, width = 260, style = "float:left")
+                                   img(src = "ACEMS.png", height = 150, width = 260, style = "float:left"), 
+                                   img(src = "FAO.png", height = 200, width = 200, style = "float:left")
                                    
                             ), 
                             column(width = 8, 
@@ -68,7 +69,10 @@ ui <- navbarPage(title = "United Nations Course Tool",
                                    h5("Instructions for use are contained in the tools dedicated welcome page. "),
                                    
                                    h3("Course Evaluation Tool"), 
-                                   h5("This tool will be used to collect feedback on the courses recommended. Feedback will be given on things such as applicability, ease of learning, content and so on, to allow for continued development of the course database. ")
+                                   h5("This tool will be used to collect feedback on the courses recommended. Feedback will be given on things such as applicability, ease of learning, content and so on, to allow for continued development of the course database. "), 
+                                   tags$hr(), 
+                                   h6("Original code developed by Amy Stringer, under the guidance of Distinguished Professor Kerrie Mengersen at the Queensland University of Technology, in collaboration with the Food and Agriculture Organisation of the United Nations. "), 
+                                   h6("If you wish to contribute to our course list, or if you have any feedback on the usability of the application, please contact", tags$a(href = "mailto:aj.stringer@qut.edu.au", "Amy Stringer"))
                                    
                             )
                           ),
@@ -84,7 +88,8 @@ ui <- navbarPage(title = "United Nations Course Tool",
                             column(width = 4, 
                                    # need those logos 
                                    img(src = "qut.png", height = 100, width = 262), 
-                                   img(src = "ACEMS.png", height = 150, width = 260)
+                                   img(src = "ACEMS.png", height = 150, width = 260), 
+                                   img(src = "FAO.png", height = 200, width = 200)
                                    
                             ),
                             column(width = 4,
@@ -179,7 +184,8 @@ ui <- navbarPage(title = "United Nations Course Tool",
                                          ),
                                          fluidRow(
                                            # add another logo
-                                           img(src = "ACEMS.png", height = 150, width = 260, style = "float:right")
+                                           img(src = "ACEMS.png", height = 150, width = 260, style = "float:right"), 
+                                           img(src = "FAO.png", height = 200, width = 200, style = "float:right")
                                          ),
                                          
                                 ),
@@ -229,7 +235,8 @@ ui <- navbarPage(title = "United Nations Course Tool",
                             column(width = 4, 
                                    # need those logos on every page 
                                    img(src = "qut.png", height = 100, width = 262, style = "float:left"), 
-                                   img(src = "ACEMS.png", height = 150, width = 260, style = "float:left")
+                                   img(src = "ACEMS.png", height = 150, width = 260, style = "float:left"), 
+                                   img(src = "FAO.png", height = 200, width = 200, style = "float:left")
                                    
                             ),
                             column(width = 8, 
