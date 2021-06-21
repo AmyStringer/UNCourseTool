@@ -1,8 +1,10 @@
 # United Nations Course Tool 
 
-Authors: Amy Stringer and Kerrie Mengersen
+Authors: Amy Stringer and Kerrie Mengersen in collaboration with the Food and Agriculture Organisation of the United Nations. 
 
+# Where is it Deployed? 
 
+A running version of this application can be found [here](https://qutschoolofmaths.shinyapps.io/uncoursetoolapp/).
 
 # Important Note
 
